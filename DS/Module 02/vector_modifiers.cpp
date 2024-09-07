@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    vector<int> x={10,20,30};
+    x.pop_back();
+    x.pop_back();
+    // vector<int> v={1,2,3}; //O(1)
+    // v=x;
+    for(int i=0;i<x.size();i++)
+    {
+        cout<<x[i]<<" ";
+    }
+    return 0;
+}
